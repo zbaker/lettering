@@ -1,19 +1,16 @@
 /* Your Styling */
-h1{
-	background: #f0f;
-	color: #fff;
-	margin: 2em auto 0 auto;
-	height: 100px;
-	width: 100px;
-
-	/* Horizontal Centering*/
-	text-align: center;
-	line-height: 100px;
-	/* Make into Circle */
-	border-radius: 100px;
+section {
+	margin: 0 auto;
+	width: 25%;
 }
 
-h1:hover{
-	background: black;
-	transition: background .5s;
+.char3 {
+	color: red;
+	font-size: 2em;
+}
+
+.word2, 
+.word3 {
+	font-style: italic;
+	border-bottom: 2px solid;
 }
